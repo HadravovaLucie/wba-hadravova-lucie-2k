@@ -1,0 +1,22 @@
+h1{
+    font-size:25;
+}
+
+h2 {
+    font-size:50px
+}
+
+#blueBox{
+    background-color:blue;
+    width:200px;
+    height:200px;
+}
+
+#orangeBox{
+    background-color:darkgoldenrod;
+    height:20px;
+    width:200px;
+}
+p{
+    width:200px;
+}
