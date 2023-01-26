@@ -82,3 +82,8 @@ h1#lorem{
 p#lorem{
     margin:3%
 }
+
+.header {
+    display: flex;
+    
+}
