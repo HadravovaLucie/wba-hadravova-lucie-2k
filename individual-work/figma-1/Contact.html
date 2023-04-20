@@ -1,29 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figma-1 Kontakty</title>
-    <link rel="stylesheet" href="./style.css">  
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <div class="header">
-        <img class="logo" src="./logo.svg" alt="logo">
-        <div class="nav">
+    <header>
+        <img id="logo" src="images/logo.svg" alt="logo">
+        <nav id="hamburgerMenu">
+            <img alt="menu" src="./images/burger menu.png">
+        </nav>
+        <nav id="normalMenu">
             <div><a href="./HomePage.html">Dovolená</a></div>
-            <div><a href="./PracticalInfo.html">Pracktické informace</a></div>
+            <div><a href="./PracticalInformation.html">Pracktické informace</a></div>
             <div class="active"><a>Kontakty</a></div>
-        </div>
-    </div>
+        </nav>
+    </header>
 
-    <div class="contact">
+    <div id="contact">
         <h1>Kontakt</h1>
+        <form>
+            <input placeholder="Jméno">
+            <input placeholder="Příjmení">
+            <input placeholder="E-mail">
+            <input placeholder="Telefon">
+            <textarea placeholder="Vaše zpráva"></textarea>
+        </form>
+        <button>Odeslat</button>
     </div>
 
-    <div class="footer">
+    <footer>
         <p>Obchodní podmínky</p>
         <p>ochrana osobních údajů</p>
-    </div>
+    </footer>
 </body>
+
 </html>
