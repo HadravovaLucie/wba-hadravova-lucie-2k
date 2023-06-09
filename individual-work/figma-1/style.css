@@ -217,7 +217,7 @@ footer {
         margin: 15px;
         font-size: 18px; }
       #homepage .section2 .destinations img {
-        width: 350px; }
+        height: 100%; }
 
   #information {
     grid-template: 150px 150px/ auto auto auto; }
